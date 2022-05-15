@@ -21,8 +21,8 @@ function onFormSubmit(event) {
   
   console.log(`email: ${formEl.email.value}, Password: ${formEl.password.value}`);
    
-    this.reset();
-    
+  this.reset();
+};  
 //     const form = document.querySelector('.login-form');
 // const email = form.elements.email.value;
 // const password = form.elements.password.value;
